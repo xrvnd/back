@@ -1,5 +1,7 @@
+# shellcheck shell=bash
 #!/bin/zsh
 
+#adding a shellcheck directive to silence zsh warning
 function back () {
 
     #saving IFS (internal field separator which is space/tab as default)
